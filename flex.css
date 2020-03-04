@@ -10,6 +10,21 @@ body {
     font-family: IRANSans;
     font-weight: 300;
 }
+@media (max-width: 500px) {
+    body {
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    body {
+        width: 85%;
+    }
+}
+@media (min-width: 801px) {
+    body {
+        width: 70%;
+    }
+}
 main {
     margin-left: 2%;
     margin-right: 2%;
