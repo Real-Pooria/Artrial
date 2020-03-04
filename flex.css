@@ -20,11 +20,7 @@ body {
         width: 85%;
     }
 }
-@media (min-width: 801px) {
-    body {
-        width: 70%;
-    }
-}
+
 main {
     margin-left: 2%;
     margin-right: 2%;
