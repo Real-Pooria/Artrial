@@ -1,0 +1,38 @@
+html {
+
+}
+.container {
+    grid-area: header;
+}
+.khadamat-cont {
+    grid-area: khadamat;
+}
+.js-cont {
+    grid-area: js;
+}
+.nazarat-cont {
+    grid-area: nazarat;
+}
+.comp-cont {
+    grid-area: companies;
+}
+.footer-cont {
+    grid-area: footer;
+}
+.grid-cont {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'khadamat khadamat'
+    'khadamat js js'
+    'khadamat nazarat'
+    'companies companies'
+    'footer footer';
+    grid-gap: 10px;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.logo-icon2 {
+    text-align: center;
+}

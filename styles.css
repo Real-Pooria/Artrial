@@ -1,5 +1,5 @@
 @import url(css/fontiran.css);
-@import url(css/flex.css);
+@import url(css/grid.css);
 html {
     background-color: rgb(228,228,228);
 }
@@ -18,10 +18,6 @@ body {
     body {
         width: 85%;
     }
-}
-footer {
-    margin-left: 5%;
-    margin-right: 5%;
 }
 .container {
     background-image: url('Imgs/header.png');
@@ -72,27 +68,17 @@ footer {
     color: white;
     opacity: 0.5;
 }
-.khadamat-cont {
-    width: 100%;
-}
 h2 {
     opacity: 0.6;
-}
-.khadamat-text2 {
-    margin-top: -5%;
-    opacity: 0.5;
 }
 .logos-cont {
     width: 90%;
     height: auto;
-    margin-top: 2%;
 }
 .logo1 {
     content: url('Imgs/1.png');
     max-width: 50%;
     height: auto;
-    transform: scale(1.1);
-    margin-top: -2%;
 }
 .logo2 {
     max-width: 50%;
@@ -104,13 +90,11 @@ h2 {
     max-width: 50%;
     height: auto;
     content: url('imgs/3.png');
-    margin-top: 2%;
 }
 .logo4 {
     max-width: 50%;
     height: auto;
     content: url('Imgs/4.png');
-    margin-top: -2%;
 }
 .logo5 {
     max-width: 50%;
@@ -121,20 +105,12 @@ h2 {
     max-width: 50%;
     max-height: auto;
     content: url('Imgs/6.png');
-    transform: scale(0.8);
-    margin-top: -11%;
 }
 .each-logo {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-}
-.logo6-text {
-    margin-top: 0%;
-}
-.logo1-text {
-    margin-top: 11%;
 }
 h1 {
     font-size: 5vw;
@@ -148,7 +124,6 @@ h1 {
     color: rgb(51, 200, 194);
     width: 250px;
     height: 30px;
-    margin-top: 25%;
     font-family: IRANSans;
     font-weight: 300;
 }
@@ -159,7 +134,6 @@ a {
     margin-top: 10%;
 }
 .nazarat-text {
-    margin-top: -10%;
     opacity: 0.5;
 }
 .comments-cont {
@@ -168,18 +142,7 @@ a {
     background-color: rgb(250,250,250);
     min-width: 70%;
 }
-.top-cm {
-    width: 100%;
-    height: 90%;
-}
-.bot-cm {
-    width: 100%;
-    height: 50%;
-}
-.bot-cm2 {
-    width: 500%;
-    height: 100%;
-}
+
 .each-cm {
     margin-top: 10px;
     margin-left: 10px;
@@ -188,7 +151,6 @@ a {
     background-color: rgb(255,255,255);
     text-align: right;
 }
-
 .u-name {
     margin-right: 50px;
 }
@@ -213,8 +175,6 @@ a {
     margin-top: 5px;
 }
 .comp-p {
-    margin-top: -5%;
-    margin-bottom: 20%;
     opacity: 0.5;
 }
 .comp-logos {
@@ -252,8 +212,6 @@ a {
     height: auto;
 }
 #each-comp-logos {
-    margin-left: -2%;
-    margin-right: -2%;
     opacity: 0.2;
 }
 .logo-icon {
@@ -264,7 +222,6 @@ a {
     margin-top: 5%;
 }
 .logo-icon2 {
-    margin-left: 30%;
     color: white;
     font-size: 2em;
     font-weight: bold;
