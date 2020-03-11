@@ -2,7 +2,33 @@ html {
 
 }
 .container {
-    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.p-header {
+    display: grid;
+    justify-self: stretch;
+}
+.arm {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    direction: rtl;
+}
+.arm-icon {
+    justify-self: left;
+    margin-right: 65%;
+    margin-top: 15%;
+}
+.arm-icon2 {
+    margin-right: 25%;
+    margin-top: 5%;
+}
+.arm-text {
+    margin-right: 2%;
 }
 .khadamat-cont {
     grid-area: khadamat;
@@ -18,19 +44,6 @@ html {
 }
 .footer-cont {
     grid-area: footer;
-}
-.grid-cont {
-    display: grid;
-    grid-template-areas: 
-    'header header'
-    'khadamat khadamat'
-    'khadamat js js'
-    'khadamat nazarat'
-    'companies companies'
-    'footer footer';
-    grid-gap: 10px;
-    background-color: blueviolet;
-    padding: 10px;
 }
 
 .logo-icon2 {

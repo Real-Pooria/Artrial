@@ -26,9 +26,7 @@ body {
     height: 347px;
 }
 .menu {
-    width: 100%;
-    margin-left: 5%;
-    margin-top: 2%;
+
 }
 .arm {
     width: 100%;
@@ -42,22 +40,17 @@ body {
     margin-top: 5%;
 }
 .arm-icon2 {
-    margin-left: 30%;
     color: rgb(51, 200, 194);
     font-size: 2em;
     font-weight: bold;
 }
 .arm-text {
     width: 20%;
-    margin-top: 2%;
-    margin-right: 1%;
     direction: rtl;
-    margin-left: 10%;
     color: white;
 }
 .p-header {
     direction: rtl;
-    margin-left: 10%;
     color: white;
 }
 .arm-text2 {
