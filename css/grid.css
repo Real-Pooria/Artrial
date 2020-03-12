@@ -70,19 +70,44 @@ h2 {
 .logo6 {
     margin-left: 25%;
 }
+.nemoone-kar {
+    display: grid;
+    justify-self: center;
+}
+h1 {
+    text-align: center;
+}
 .js-cont {
-
+    justify-self: center;
+}
+.show-samples {
+    justify-self: center;
 }
 .nazarat-cont {
-
+    display: grid;
+    justify-self: center;
 }
-.comp-cont {
-
+.nazarat-text {
+    text-align: center;
+    margin-top: -1.5%;
 }
-.footer-cont {
-
+.comments-cont {
+    margin-top: 15%;
+    justify-self: center;
 }
-
+.top-cm {
+    grid-template-columns: 2fr 1fr;
+    display: grid;
+    direction: rtl;
+}
+.bot-cm {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    direction: rtl;
+}
+.bot-cm2 {
+    display: grid;
+}
 .logo-icon2 {
     text-align: center;
 }
