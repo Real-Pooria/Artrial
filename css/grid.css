@@ -122,6 +122,50 @@ h1 {
 #each-comp-logos {
     justify-self: center;
 }
-.logo-icon2 {
+.footer-cont {
+    margin-top: 15%;
+}
+.adamak {
+    position: relative;
+    z-index: 2;
+    right: 75px;
+}
+.line {
+    border-top: 1px solid rgb(231, 231, 231);
+    z-index: 1;
+    max-width: 900px;
+    left: -70px;
+    bottom: 48px;
+    position: relative;
+}
+.footer-text {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    direction: rtl;
+    justify-self: center;
+    height: auto;
+}
+.social-media-cont {
+    margin-bottom: 15%;
+    margin-right: 25%;
+}
+#each-socialmedia-div {
+    margin-right: 10%;
+    display: flex;
+    margin-bottom: -5%;
+    margin-top: -7%;
+}
+.our-stats {
+    justify-self: center;
+}
+.copy {
+    justify-self: center;
     text-align: center;
+    margin-top: -5%;
+}
+.copy-p {
+    margin-right: 16%;
+}
+.logo-icon {
+    margin-right: 45%;
 }

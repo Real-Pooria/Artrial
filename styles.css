@@ -232,33 +232,10 @@ a {
 }
 .adamak-cont {
     direction: rtl;
-    margin-top: 15%;
     max-width: 100%;
 }
 .adamak {
     content: url(Imgs/adamak2.png);
-    position: relative;
-    z-index: 2;
-    bottom: -5px;
-    right: 50px;
-}
-.line {
-    border-top: 1px solid rgb(231, 231, 231);
-    width: 900px;
-    left: 5%;
-    bottom: -150px;
-    position: relative;
-    z-index: 1;
-}
-.social-media-cont {
-    width: 20%;
-    direction: rtl;
-}
-.our-stats {
-    width: 35%;
-}
-.copy {
-    width: 45%;
 }
 .copy-p {
     margin-top: -2%;

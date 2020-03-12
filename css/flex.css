@@ -166,12 +166,31 @@ div {
 }
 .social-media-cont {
     flex-direction: column;
+    width: 20%;
+    direction: rtl;
 }
 .our-stats {
     flex-direction: column;
+    width: 35%;
 }
 .copy {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    width: 45%;
+}
+.adamak {
+    content: url(Imgs/adamak2.png);
+    position: relative;
+    z-index: 2;
+    bottom: -5px;
+    right: 50px;
+}
+.line {
+    border-top: 1px solid rgb(231, 231, 231);
+    max-width: 900px;
+    left: 5%;
+    bottom: -150px;
+    position: relative;
+    z-index: 1;
 }
