@@ -31,19 +31,56 @@ html {
     margin-right: 2%;
 }
 .khadamat-cont {
-    grid-area: khadamat;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.khadamat-text {
+    justify-self: center;
+}
+h2 {
+    text-align: center;
+}
+.khadamat-text2 {
+    justify-self: center;
+}
+.logos-cont {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    justify-self: center;
+}
+.each-logo {
+    text-align: center;
+}
+.logo1 {
+    margin-left: 25%;
+}
+.logo2 {
+    margin-left: 25%;
+}
+.logo3 {
+    margin-left: 25%;
+}
+.logo4 {
+    margin-left: 25%;
+}
+.logo5 {
+    margin-left: 25%;
+}
+.logo6 {
+    margin-left: 25%;
 }
 .js-cont {
-    grid-area: js;
+
 }
 .nazarat-cont {
-    grid-area: nazarat;
+
 }
 .comp-cont {
-    grid-area: companies;
+
 }
 .footer-cont {
-    grid-area: footer;
+
 }
 
 .logo-icon2 {

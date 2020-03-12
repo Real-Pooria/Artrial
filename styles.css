@@ -2,6 +2,8 @@
 @import url(css/grid.css);
 html {
     background-color: rgb(228,228,228);
+    justify-content: center;
+    display: flex;
 }
 body {
     background-color: rgb(250,250,250);
@@ -64,14 +66,20 @@ body {
 h2 {
     opacity: 0.6;
 }
+.khadamat-text2 {
+    opacity: 0.5;
+    margin-top: -5%;
+}
 .logos-cont {
     width: 90%;
     height: auto;
+    margin-top: 2%;
 }
 .logo1 {
     content: url('Imgs/1.png');
     max-width: 50%;
     height: auto;
+    transform: scale(1.1);
 }
 .logo2 {
     max-width: 50%;
@@ -98,12 +106,10 @@ h2 {
     max-width: 50%;
     max-height: auto;
     content: url('Imgs/6.png');
+    transform: scale(0.9);
 }
-.each-logo {
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+.logo6-text {
+    margin-top: 1%;
 }
 h1 {
     font-size: 5vw;
