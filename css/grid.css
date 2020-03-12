@@ -108,6 +108,20 @@ h1 {
 .bot-cm2 {
     display: grid;
 }
+.comp-cont {
+    display: grid;
+}
+.comp-p {
+    margin-bottom: 15%;
+}
+.comp-logos {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-self: center;
+}
+#each-comp-logos {
+    justify-self: center;
+}
 .logo-icon2 {
     text-align: center;
 }

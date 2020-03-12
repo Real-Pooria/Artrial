@@ -176,6 +176,7 @@ a {
 }
 .comp-p {
     opacity: 0.5;
+    text-align: center;
 }
 .comp-logos {
     width: 80%;
