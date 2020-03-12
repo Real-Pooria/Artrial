@@ -1,5 +1,5 @@
 @import url(css/fontiran.css);
-@import url(css/flex.css);
+@import url(css/grid.css);
 html {
     background-color: rgb(228,228,228);
     justify-content: center;
@@ -21,41 +21,38 @@ body {
         width: 85%;
     }
 }
-.container {
+.header-container {
     background-image: url('Imgs/header.png');
     background-size: cover;
     width: 100%;
     height: 347px;
 }
-.menu {
-
-}
-.arm {
+.header-container__logo {
     width: 100%;
     margin-right: 5%;
 }
-.arm-icon {
+.logo__icon {
     width: 50px;
     height: 50px;
     background-color: white;
     border-radius: 20%;
     margin-top: 5%;
 }
-.arm-icon2 {
+.icon__text {
     color: rgb(51, 200, 194);
     font-size: 2em;
     font-weight: bold;
 }
-.arm-text {
+.logo__text {
     width: 20%;
     direction: rtl;
     color: white;
 }
-.p-header {
+.menu__p {
     direction: rtl;
     color: white;
 }
-.arm-text2 {
+.logo__text--opaque {
     width: 200%;
     margin-top: -20%;
     direction: rtl;
@@ -66,56 +63,56 @@ body {
 h2 {
     opacity: 0.6;
 }
-.khadamat-text2 {
+.services-container__header--opaque {
     opacity: 0.5;
     margin-top: -5%;
 }
-.logos-cont {
+.services-container__item-wrapper {
     width: 90%;
     height: auto;
     margin-top: 2%;
 }
-.logo1 {
+.logo__image1 {
     content: url('Imgs/1.png');
     max-width: 50%;
     height: auto;
     transform: scale(1.1);
 }
-.logo2 {
+.logo__image2 {
     max-width: 50%;
     height: auto;
     content: url('Imgs/2.png');
     
 }
-.logo3 {
+.logo__image3 {
     max-width: 50%;
     height: auto;
     content: url('imgs/3.png');
 }
-.logo4 {
+.logo__image4 {
     max-width: 50%;
     height: auto;
     content: url('Imgs/4.png');
 }
-.logo5 {
+.logo__image5 {
     max-width: 50%;
     height: auto;
     content: url('Imgs/5.png');
 }
-.logo6 {
+.logo__image6 {
     max-width: 50%;
     max-height: auto;
     content: url('Imgs/6.png');
     transform: scale(0.9);
 }
-.logo6-text {
+.logo__text6 {
     margin-top: 1%;
 }
 h1 {
     font-size: 5vw;
     opacity: 0.05;
 }
-.show-all-nemoone-kar {
+.anchor-div__button {
     background-color: white;
     border: 1.5px;
     border-style: solid;
@@ -129,20 +126,20 @@ h1 {
 a {
     text-decoration: none;
 }
-.nazarat-cont {
+.comments-container {
     margin-top: 10%;
 }
-.nazarat-text {
+.comments-container__header--opaque {
     opacity: 0.5;
 }
-.comments-cont {
+.comments-container__comments-item {
     width: 90%;
     height: 90%;
     background-color: rgb(250,250,250);
     min-width: 70%;
 }
 
-.each-cm {
+.comments-item__cm-div {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -150,16 +147,16 @@ a {
     background-color: rgb(255,255,255);
     text-align: right;
 }
-.u-name {
+.comments-item__u-name {
     margin-right: 50px;
 }
-.bonyan {
+.comments-item__rank {
     margin-right: 50px;
     margin-top: -5px;
     opacity: 0.5;
     font-size: small;
 }
-.cm {
+.comments-item__cm-text {
     margin-right: 50px;
     margin-left: 50px;
     padding-bottom: 10%;
@@ -167,107 +164,107 @@ a {
     opacity: 0.6;
     font-size: small;
 }
-.quote {
+.comments-item__quote {
     content: url(imgs/comment.PNG);
     width: 50px;
     height: 50px;
     position: absolute;
     margin-top: 5px;
 }
-.comp-p {
+.clients-container__header--opaque {
     opacity: 0.5;
     text-align: center;
 }
-.comp-logos {
+.clients-container__client-logos {
     width: 80%;
     height: auto;
 }
-.comp-logo1 {
+.client-logos__logo-icon1 {
     content: url(Imgs/comp-logo1.png);
     max-width: 50%;
     height: auto;
 }
-.comp-logo2 {
+.client-logos__logo-icon2 {
     content: url(Imgs/comp-logo2.png);
     max-width: 50%;
     height: auto;
 }
-.comp-logo3 {
+.client-logos__logo-icon3 {
     content: url(Imgs/comp-logo3.png);
     max-width: 50%;
     height: auto;
 }
-.comp-logo4 {
+.client-logos__logo-icon4 {
     content: url(Imgs/comp-logo1.png);
     max-width: 50%;
     height: auto;
 }
-.comp-logo5 {
+.client-logos__logo-icon5 {
     content: url(Imgs/comp-logo2.png);
     max-width: 50%;
     height: auto;
 }
-.comp-logo6 {
+.client-logos__logo-icon6 {
     content: url(Imgs/comp-logo3.png);
     max-width: 50%;
     height: auto;
 }
-#each-comp-logos {
+#client-logos-position {
     opacity: 0.2;
 }
-.logo-icon {
+.logo__footer-icon {
     width: 50px;
     height: 50px;
     background-color: rgb(51, 200, 194);
     border-radius: 20%;
     margin-top: 5%;
 }
-.logo-icon2 {
+.logo__footer-text {
     color: white;
     font-size: 2em;
     font-weight: bold;
 }
-.footer-cont {
+.footer-container {
     text-align: right;
 }
-.adamak-cont {
+.footer-container__div-icon {
     direction: rtl;
     max-width: 100%;
 }
-.adamak {
+.div-icon__the-dummy {
     content: url(Imgs/adamak2.png);
 }
-.copy-p {
+.designer__text {
     margin-top: -2%;
     opacity: 0.5;
     font-size: 85%;
     width: 65%;
 }
-.telegram {
+.social-media-cont__telegram {
     content: url(Imgs/telegram.png);
     width: 15px;
     height: 15px;
     margin-left: 10%;
 }
-.aparat {
+.social-media-cont__aparat {
     content: url(Imgs/aparat.png);
     width: 15px;
     height: 15px;
     margin-left: 10%;
 }
-.derbil {
+.social-media-cont__derbil {
     content: url(Imgs/derbil.png);
     width: 15px;
     height: 15px;
     margin-left: 10%;
 }
-.github {
+.social-media-cont__github {
     content: url(Imgs/github.png);
     width: 15px;
     height: 15px;
     margin-left: 10%;
 }
-.each-p-in-footer {
+.text__social-media-cont--opaque {
     opacity: 0.5;
     font-size: 85%;
 }

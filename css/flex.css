@@ -9,184 +9,176 @@ footer {
 div {
     display: flex;
 }
-.menu {
+.header-container__menu {
     width: 100%;
     margin-left: 5%;
     margin-top: 2%;
 }
-.top-cm {
-    width: 100%;
-    height: 90%;
-}
-.bot-cm {
-    width: 100%;
-    height: 50%;
-}
-.bot-cm2 {
-    width: 500%;
-    height: 100%;
-}
-.arm {
+.header-container__logo {
     display: flex;
     align-content: center;
     flex-direction: row-reverse;
 }
-.arm-icon {
+.logo__icon {
     align-items: center;
 }
-.arm-icon2 {
+.icon__text {
     align-items: center;
     margin-left: 30%;
 }
-.arm-text {
+.logo__text {
     flex-direction: column;
     margin-top: 2%;
     margin-right: 1%;
     margin-left: 10%;
 }
-.p-header {
+.menu__p {
     margin-left: 10%;
 }
-.khadamat-cont {
+.services-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-.khadamat-text {
+.services-container__header {
     flex-direction: column;
     align-items: center;
 }
-.logos-cont {
+.services-container__item-wrapper {
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.each-logo {
+.item-wrapper__logo {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     margin-left: 2.5%;
     margin-right: 2.5%;
+    flex-direction: column;
+    align-items: center;
 }
-.logo1 {
+.logo__image1 {
     margin-top: -2%;
 }
-.logo3 {
+.logo__image3 {
     margin-top: 2%;
 }
-.logo4 {
+.logo__image4 {
     margin-top: -2%;
 }
-.logo6 {
+.logo__image6 {
     margin-top: -11%;
 }
-.logo6-text {
+.logo__image6-text {
     margin-top: 0%;
 }
-.logo1-text {
+.logo__text1 {
     margin-top: 11%;
 }
-.each-logo {
+.samples-container {
     flex-direction: column;
     align-items: center;
 }
-.nemoone-kar {
-    flex-direction: column;
-    align-items: center;
-}
-.show-all-nemoone-kar {
+.anchor-div__button {
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
     margin-top: 25%;
 }
-.nazarat-cont {
+.comments-container {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.nazarat-topic {
+.comments-container__header {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.nazarat-text {
+.comments-container__header--opaque {
     margin-top: -10%;
 }
-.comments-cont {
+.comments-container__comments-item {
     flex-direction: column;
 }
-.top-cm {
+.comments-item__top-cm {
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+}
+.comments-item__bot-cm {
+    width: 100%;
+    height: 50%;
     flex-direction: row;
 }
-.bot-cm {
-    flex-direction: row;
-}
-.bot-cm2 {
+.comments-item__bot-left-cm {
+    width: 500%;
+    height: 100%;
     flex-direction: column;
 }
-.each-cm {
+.comments-item__cm-div {
     flex-direction: column;
 }
-.comp-cont {
+.clients-container {
     flex-direction: column;
     align-items: center;
 }
-.comp-text {
+.clients-container__header {
     flex-direction: column;
     align-items: center;
 }
-.comp-p {
+.clients-container__header--opaque {
     margin-top: -5%;
     margin-bottom: 20%;
 }
-#each-comp-logos {
+#client-logos-position {
     margin-left: -2%;
     margin-right: -2%;
 }
-.comp-logos {
+.clients-container__client-logos {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
 }
-.logo-icon {
+.logo__footer-icon {
     align-items: center;
 }
-.logo-icon2 {
+.logo__footer-text {
     margin-left: 30%;
 }
-.footer-cont {
+.footer-container {
     flex-direction: column;
     align-items: center;
     margin-top: 15%;
 }
-.footer-text {
+.footer-container__text {
     flex-direction: row-reverse;
 }
-.social-media-cont {
+.text__social-media-cont {
     flex-direction: column;
     width: 20%;
     direction: rtl;
 }
-.our-stats {
+.text__stats {
     flex-direction: column;
     width: 35%;
 }
-.copy {
+.text__designer {
     flex-direction: column;
     text-align: center;
     align-items: center;
     width: 45%;
 }
-.adamak {
+.div-icon__the-dummy {
     position: relative;
     z-index: 2;
     bottom: -5px;
     right: 50px;
 }
-.line {
+.div-icon__the-line {
     border-top: 1px solid rgb(231, 231, 231);
     width: 900px;
     left: 5%;
