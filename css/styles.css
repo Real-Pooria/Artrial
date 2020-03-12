@@ -1,6 +1,3 @@
-@import url(fontiran.css);
-@import url(grid.css);
-/* @import url(flex.css); */
 html {
     background-color: rgb(228,228,228);
     justify-content: center;
