@@ -1,5 +1,6 @@
-@import url(css/fontiran.css);
-@import url(css/grid.css);
+@import url(fontiran.css);
+@import url(grid.css);
+/* @import url(flex.css); */
 html {
     background-color: rgb(228,228,228);
     justify-content: center;
@@ -22,7 +23,7 @@ body {
     }
 }
 .header-container {
-    background-image: url('Imgs/header.png');
+    background-image: url('../Imgs/header.png');
     background-size: cover;
     width: 100%;
     height: 347px;
@@ -73,7 +74,7 @@ h2 {
     margin-top: 2%;
 }
 .logo__image1 {
-    content: url('Imgs/1.png');
+    content: url('../Imgs/1.png');
     max-width: 50%;
     height: auto;
     transform: scale(1.1);
@@ -81,28 +82,28 @@ h2 {
 .logo__image2 {
     max-width: 50%;
     height: auto;
-    content: url('Imgs/2.png');
+    content: url('../Imgs/2.png');
     
 }
 .logo__image3 {
     max-width: 50%;
     height: auto;
-    content: url('imgs/3.png');
+    content: url('../imgs/3.png');
 }
 .logo__image4 {
     max-width: 50%;
     height: auto;
-    content: url('Imgs/4.png');
+    content: url('../Imgs/4.png');
 }
 .logo__image5 {
     max-width: 50%;
     height: auto;
-    content: url('Imgs/5.png');
+    content: url('../Imgs/5.png');
 }
 .logo__image6 {
     max-width: 50%;
     max-height: auto;
-    content: url('Imgs/6.png');
+    content: url('../Imgs/6.png');
     transform: scale(0.9);
 }
 .logo__text6 {
@@ -165,7 +166,7 @@ a {
     font-size: small;
 }
 .comments-item__quote {
-    content: url(imgs/comment.PNG);
+    content: url(../imgs/comment.PNG);
     width: 50px;
     height: 50px;
     position: absolute;
@@ -180,32 +181,32 @@ a {
     height: auto;
 }
 .client-logos__logo-icon1 {
-    content: url(Imgs/comp-logo1.png);
+    content: url(../Imgs/comp-logo1.png);
     max-width: 50%;
     height: auto;
 }
 .client-logos__logo-icon2 {
-    content: url(Imgs/comp-logo2.png);
+    content: url(../Imgs/comp-logo2.png);
     max-width: 50%;
     height: auto;
 }
 .client-logos__logo-icon3 {
-    content: url(Imgs/comp-logo3.png);
+    content: url(../Imgs/comp-logo3.png);
     max-width: 50%;
     height: auto;
 }
 .client-logos__logo-icon4 {
-    content: url(Imgs/comp-logo1.png);
+    content: url(../Imgs/comp-logo1.png);
     max-width: 50%;
     height: auto;
 }
 .client-logos__logo-icon5 {
-    content: url(Imgs/comp-logo2.png);
+    content: url(../Imgs/comp-logo2.png);
     max-width: 50%;
     height: auto;
 }
 .client-logos__logo-icon6 {
-    content: url(Imgs/comp-logo3.png);
+    content: url(../Imgs/comp-logo3.png);
     max-width: 50%;
     height: auto;
 }
@@ -232,7 +233,7 @@ a {
     max-width: 100%;
 }
 .div-icon__the-dummy {
-    content: url(Imgs/adamak2.png);
+    content: url(../Imgs/adamak2.png);
 }
 .designer__text {
     margin-top: -2%;
@@ -241,25 +242,25 @@ a {
     width: 65%;
 }
 .social-media-cont__telegram {
-    content: url(Imgs/telegram.png);
+    content: url(../Imgs/telegram.png);
     width: 15px;
     height: 15px;
     margin-left: 10%;
 }
 .social-media-cont__aparat {
-    content: url(Imgs/aparat.png);
+    content: url(../Imgs/aparat.png);
     width: 15px;
     height: 15px;
     margin-left: 10%;
 }
 .social-media-cont__derbil {
-    content: url(Imgs/derbil.png);
+    content: url(../Imgs/derbil.png);
     width: 15px;
     height: 15px;
     margin-left: 10%;
 }
 .social-media-cont__github {
-    content: url(Imgs/github.png);
+    content: url(../Imgs/github.png);
     width: 15px;
     height: 15px;
     margin-left: 10%;
