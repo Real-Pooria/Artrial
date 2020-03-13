@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-.menu__p {
+.header-container__p {
     display: grid;
     justify-self: stretch;
 }
@@ -15,16 +15,16 @@
     grid-template-columns: 1fr 5fr;
     direction: rtl;
 }
-.logo__icon {
+.header-container__logo-icon {
     justify-self: left;
     margin-right: 65%;
     margin-top: 15%;
 }
-.icon__text {
+.header-container__logo-text {
     margin-right: 25%;
     margin-top: 5%;
 }
-.logo__text {
+.header-container__logo-name {
     margin-right: 2%;
 }
 .services-container {

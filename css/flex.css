@@ -19,20 +19,20 @@ div {
     align-content: center;
     flex-direction: row-reverse;
 }
-.logo__icon {
+.header-container__logo-icon {
     align-items: center;
 }
-.icon__text {
+.header-container__logo-text {
     align-items: center;
     margin-left: 30%;
 }
-.logo__text {
+.header-container__logo-name {
     flex-direction: column;
     margin-top: 2%;
     margin-right: 1%;
     margin-left: 10%;
 }
-.menu__p {
+.header-container__p {
     margin-left: 10%;
 }
 .services-container {
