@@ -11,8 +11,9 @@ body {
 }
 .header-container {
     background-image: url('../Imgs/header.png');
-    background-size: cover;
-    min-height: 347px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .header-container__logo {
     margin-right: 5%;
@@ -157,4 +158,30 @@ a {
 span {
     color: rgb(51, 200, 194);
     opacity: 1;
+}
+
+@media (max-width: 575px) {
+    body {
+        width: auto;
+    }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    body {
+        width: 540px;
+    }
+}
+@media (max-width: 992px) and (min-width: 769px) {
+    body {
+        width: 720px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 993px) {
+    body {
+        width: 960px;
+    }
+}
+@media (min-width: 1201px) {
+    body {
+        width: 1140px;
+    }
 }
