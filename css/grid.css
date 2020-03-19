@@ -48,12 +48,17 @@ h2 {
 .samples-container {
     display: grid;
     justify-self: center;
+    justify-items: center;
+    grid-template-rows: auto auto auto;
 }
 h1 {
     text-align: center;
 }
 .samples-container__js-cont {
     justify-self: center;
+}
+.samples-container__button-container {
+    margin-top: -40px;
 }
 .samples-container__anchor-div {
     justify-self: center;
